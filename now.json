@@ -24,6 +24,7 @@
     { "src": "^/background.svg", "dest": "/background.svg" },
     { "src": "^/asset-manifest.json", "dest": "/asset-manifest.json" },
     { "src": "^/manifest.json", "dest": "/manifest.json" },
+    { "src": "^/site.webmanifest", "dest": "/site.webmanifest" },
     { "src": "^/precache-manifest.(.*)", "dest": "/precache-manifest.$1" },
     {
       "src": "^/service-worker.js",
