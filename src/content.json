@@ -5,7 +5,10 @@
       "link": "https://www.hackthebox.eu/profile/79963 "
     },
     { "displayName": "github", "link": "https://github.com/joevbruno" },
-    { "displayName": "resume", "link": "https://joebruno.design/resume.pdf" },
+    {
+      "displayName": "resume",
+      "link": "https://hello.joebruno.design/resume.pdf"
+    },
     { "displayName": "twitter", "link": "https://twitter.com/joevbruno" },
     {
       "displayName": "linkedin",
