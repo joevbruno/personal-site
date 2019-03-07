@@ -1,0 +1,64 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chrome: Monocle",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:9000",
+      "sourceMaps": true,
+      "webRoot": "${workspaceRoot}/packages/strala-monocle",
+      "sourceMapPathOverrides": {
+        "webpack:///./src/*": "${webRoot}/src/*"
+      }
+    },
+    {
+      "name": "Jest: Monocle",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": [
+        "node_modules/.bin/jest",
+        "--runInBand",
+        "--no-cache",
+        "--env=jsdom"
+      ],
+      "cwd": "${workspaceRoot}/packages/strala-monocle",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Mix Test: Aperture",
+      "type": "mix_task",
+      "request": "launch",
+      "task": "test",
+      "taskArgs": ["--trace", "${relativeFile}"],
+      "projectDir": "${workspaceRoot}/services-api/aperture",
+      "env": {
+        "DB_USERNAME": "postgres",
+        "DB_PASSWORD": "postgres",
+        "DB_HOST": "localhost",
+        "GUARDIAN_SECRET_KEY": "testing",
+        "MIX_ENV": "test",
+        "ELASTICSEARCH_URL": "http://localhost:9200"
+      }
+    },
+    {
+      "name": "Mix Phoenix Serve: Aperture",
+      "type": "mix_task",
+      "request": "launch",
+      "task": "phx.server",
+      "taskArgs": [],
+      "projectDir": "${workspaceRoot}/services-api/aperture",
+      "env": {
+        "DB_USERNAME": "postgres",
+        "DB_PASSWORD": "postgres",
+        "DB_HOST": "localhost",
+        "GUARDIAN_SECRET_KEY": "testing",
+        "MIX_ENV": "dev",
+        "ELASTICSEARCH_URL": "http://localhost:9200"
+      }
+    }
+  ]
+}
