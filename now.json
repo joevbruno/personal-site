@@ -15,8 +15,8 @@
       "dest": "/static/$1"
     },
     { "src": "^/favicon.ico", "dest": "/favicon.ico" },
-    { "src": "^/resume.pdf", "dest": "/static/resume.pdf" },
-    { "src": "^/background.svg", "dest": "/static/background.svg" },
+    { "src": "^/resume.pdf", "dest": "/resume.pdf" },
+    { "src": "^/background.svg", "dest": "/background.svg" },
     { "src": "^/asset-manifest.json", "dest": "/asset-manifest.json" },
     { "src": "^/manifest.json", "dest": "/manifest.json" },
     { "src": "^/precache-manifest.(.*)", "dest": "/precache-manifest.$1" },
