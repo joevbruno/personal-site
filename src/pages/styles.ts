@@ -10,5 +10,5 @@ export const PortfolioPageWrapper = styled('div')`
 
 export const HeaderWrapper = styled('div')`
   width: 100%;
-  background: linear-gradient(to bottom, #3ca0ca, transparent);
+  background: linear-gradient(rgba(60, 160, 202, 1), rgba(60, 160, 202, 0));
 `;
