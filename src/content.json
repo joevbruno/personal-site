@@ -21,14 +21,14 @@
     }
   ],
   "paragraphs": [
-    "I am a Senior Full Stack Software Engineer who has spent the better part of the last decade leading teams and writing sophisticated, award winning UIs for non-profits, government contractors, and early stage startups with extensive experience utilizing Node, Typescript, React, and Redux in the Martech and Fintech business sectors. I’m always acquiring new skills and interests, and am currently pursuing additional certifications in the Offensive Security and InfoSec spaces. I currently hold the Offensive Security Certified Professional (OSCP) certification.",
-    "Beyond Full Stack Javascript and Offensive Security, I have predominantly worked with PHP, Wordpress, Laravel and occasionally, Ruby on Rails. To date, I’ve dabbled in Go, shipped an app or two in Elm and Elixir, and written enough Python to modify or create exploits and machine learning models. I’m comfortable on AWS and Cloudformation, can probably pwn your company's boxes, and thoroughly enjoy crafting elegant products from vision to delivery.",
-    "Seeking a senior leadership position, which combines Offensive Security, Product Development, and Design to make the world safer at a remote friendly, product-oriented company with a passion for security and design."
+    "Joe Bruno is an Offensive Security Consultant, Senior Software Architect, and Bug Bounty Hunter with nearly a decade of IT experience within a variety of domains, including IT Governance, Software Development, PHP Malware Research, and Application Security. He holds a number of certifications, including the Offensive Security Certified Professional (OSCP), and has considerable experience attacking, defending, and building modern, award-winning applications for non-profits, government contractors, and startups, particularly within the Martech, Fintech, and InfoSec business sector.",
+    "As a Software Developer, Joe has architected and delivered multiple 100K+ line Full Stack Javascript Applications utilizing Node, Typescript, React, and Redux for various companies. Outside of Full Stack Javascript and Offensive Security, he has predominantly worked with PHP, Wordpress, Laravel and occasionally, Ruby on Rails. He has dabbled in Go, shipped an app or two in Elm and Elixir, and written enough Python to modify or create exploits and machine learning models.",
+    "Joe is seeking a unique, senior level position at a remote friendly company, which combines Offensive Security, Product Development, and Design to make the world safer."
   ],
   "titles": ["Hello World", "What's next?"],
   "misc": [
-    "$ yarn start",
-    "…listening on port 3000…",
+    "$ nc -nlvp 443",
+    "…listening on port 443…",
     "Engineer. Designer. Hacker.",
     "CONNECT"
   ],
